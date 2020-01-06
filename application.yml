@@ -1,14 +1,14 @@
 spring:
   profiles:
     active:
-      - dev
----
-spring:
+    - dev
+--- 
+spring: 
   profiles: dev
-  application:
+  application: 
     name: cloud-eternity-dev
----
-spring:
+--- 
+spring: 
   profiles: test
-  application:
+  application: 
     name: cloud-eternity-test

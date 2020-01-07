@@ -14,6 +14,7 @@ mybatis:
     map-underscore-to-camel-case: true
 
 spring:
+  profiles: dev
   application:
     name: cloud-dept
   datasource:
@@ -58,6 +59,7 @@ mybatis:
     map-underscore-to-camel-case: true
 
 spring:
+  profiles: test
   application:
     name: cloud-dept
   datasource:
